@@ -3,27 +3,13 @@
 <title>Professor John Gordon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   -->
-
 <link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="css\problemtabs.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-
-.tabs { list-style: none; }
-.tabs li { display: inline; }
-.tabs li a { color: black; float: left; display: block; padding: 4px 10px; margin-left: -1px; position: relative; left: 1px; background: white; text-decoration: none; }
-.tabs li a:hover { background: #ccc; }
-.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-.box-wrap { position: relative; min-height: 250px; }
-.tabbed-area div div { background: white; padding: 20px; min-height: 250px; position: absolute; top: -1px; left: 0; width: 100%; }
-.tabbed-area div div, .tabs li a { border: 1px solid #ccc; }
-#box-one:target, #box-two:target, #box-three:target {
-  z-index: 1;
-}
-
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
 
 <body class="w3-theme-l4">
@@ -82,28 +68,64 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             <div class="w3-content">
               <div class="w3-card-4 w3-margin w3-white">
 
+                <br>
+                <br>
+
+
                 <div class="w3-content">
 
-                <div class="tabbed-area">
-                	<ul class="tabs group">
-                	    <li><a href="#box-one">Problem 1</a></li>
-                	    <li><a href="#box-two">Solution</a></li>
-                	</ul>
-                	<div class="box-wrap">
-                		<div id="box-one">
-                		  One
-                		</div>
-                		<div id="box-two">
-                		  Two
-                		</div>
-                	</div>
+
+                  <div class="w3-card-4 w3-margin w3-white">
+
+
+                  <button class="tablink" onclick="openPage('Problem', this, 'red')" id="defaultOpen">Problem</button>
+                  <button class="tablink" onclick="openPage('Solution', this, 'green')">Solution</button>
+
+                  <div id="Problem" class="tabcontent">
+                    <h3>Problem</h3>
+                    <p>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                      Instructions<br>
+                    </p>
+                  </div>
+
+                  <div id="Solution" class="tabcontent">
+                    <h3>Solution</h3>
+                    <p>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                      Solution<br>
+                    </p>
+                  </div>
+
                 </div>
 
-              </div>
 
-                  <br>
-                  <br>
-                  <br>
+
+
+                </div>
+                <br>
+                <br>
                 </div>
               </div>
             </div>
@@ -150,7 +172,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-<!--
+
     <div class="w3-row">
       <div class="w3-content">
         <ul class="w3-ul w3-border-top">
@@ -189,9 +211,27 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </ul>
       </div>
     </div>
--->
+
 
 </div>
+
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 </html>
