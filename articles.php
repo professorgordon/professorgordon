@@ -70,6 +70,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-card-4 w3-margin w3-white">
 
                 <div class="w3-container">
+                  <p>Here is a list of all articles on this site organized by topic.</p>
+                </div>
+
+                <div class="w3-container">
                   <h4>Git & GitHub</h4>
                 </div>
                 <div class="w3-container">
