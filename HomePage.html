@@ -6,6 +6,37 @@
 <link rel="stylesheet" href="css\w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
@@ -205,7 +236,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
 -->
 
-    <!-- Footer  -->
+<!-- Footer  -->
+<!--
     <div class="w3-row">
       <div class="w3-content w3-center w3-small">
         <p>
@@ -216,7 +248,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <br>
       </div>
     </div>
-
+-->
+    <div w3-include-html="footer.html"></div>
+    <script>
+    includeHTML();
+    </script>
 <!-- Theme -->
 <!--
     <div class="w3-row">
