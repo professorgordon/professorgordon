@@ -19,9 +19,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="homepage.html">Professor John Gordon</a></h3></div>
+        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="index.php">Professor John Gordon</a></h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
-            <h3><a href="homepage.html">Home</a>&nbsp;&nbsp;<a href="blog.html">Blog</a>&nbsp;&nbsp;<a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="Contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;
               <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="30" width="30"></a>&nbsp;&nbsp;
             </h3>
@@ -32,7 +32,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="HomePage.html" style="color:#0000ff;">Home</a> > <a href="itindustry.html" style="color:#0000ff;">IT Industry</a> > <a href="articles.html" style="color:#0000ff;">Articles</a> > Structure of an IT Department
+          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="itindustry.php" style="color:#0000ff;">IT Industry</a> > <a href="articles.php" style="color:#0000ff;">Articles</a> > Structure of an IT Department
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
                 <div class="w3-col" style="width:90%">
                   <p>
-                    <i>© 2019 <a href="Contact.html" style="color:#0000ff;">John Gordon</a>. This article contains supplemental material that I use in some of the college classes that I teach. Feel free to <a href="Contact.html" style="color:#0000ff;">contact me</a> with any questions or comments concerning this article.</i>
+                    <i>© 2019 <a href="Contact.php" style="color:#0000ff;">John Gordon</a>. This article contains supplemental material that I use in some of the college classes that I teach. Feel free to <a href="Contact.php" style="color:#0000ff;">contact me</a> with any questions or comments concerning this article.</i>
                   </p>
                 </div>
 
@@ -185,7 +185,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content w3-center w3-small">
         <p>
-          &copy; 2019-2020 <a href="Contact.html" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
+          &copy; 2019-2020 <a href="Contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
           <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
         </p>
         <br>
