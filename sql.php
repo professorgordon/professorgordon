@@ -74,7 +74,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-row">
                   <div class="w3-container w3-twothird w3-white">
                     <p>
-                      I have worked in data for many years. What does that mean, <i>work in data</i>? Databases are the foundation of nearly every business application, in-house, web-based, mobile, cloud, etc. I've worked as a Database Developer, Administrator, Architect and heavily in data analytics, transformations and data warehousing during my career. SQL is the core language of data regardless of the database vendor (Microsoft, Oracle, mySql, etc.), SQL is involved in the interaction with databases.
+                      I have worked in data for many years. What does that mean, <i>work in data</i>? Databases are the foundation of nearly every business application, in-house, web-based, mobile, cloud, etc. I've worked as a Database Developer, Administrator, Architect and heavily in data analytics, transformations and data warehousing during my career. SQL is the core language of data regardless of the database vendor (Microsoft, Oracle, mySql, etc.), SQL is involved in the interaction with databases. So, when you work in data SQL is, quite literally, a way of life.
                     </p>
                   </div>
                   <div class="w3-container w3-third w3-white w3-center">
@@ -88,7 +88,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
-
+<!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
@@ -136,7 +136,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
-
+-->
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
@@ -173,7 +173,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-container">
                   <p>
                     <ul>
-                      <li></li>
+                      <li>SQL Queries for Mere Mortals, 4th Edition, 2018, John Viescas.</li>
                     </ul>
                   </p>
                   <br>
