@@ -19,7 +19,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="homepage.html">Professor John Gordon</a></h3></div>
+        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="index.php">Professor John Gordon</a></h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
             <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="Contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;

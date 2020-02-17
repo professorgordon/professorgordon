@@ -3,7 +3,6 @@
 <title>Professor John Gordon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   -->
 <link rel="stylesheet" href="css\w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,11 +18,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-d3 w3-container w3-third">
-          <h3><a href="HomePage.html">Professor John Gordon</a></h3>
+          <h3><a href="index.php">Professor John Gordon</a></h3>
         </div>
         <div align="right" class="w3-theme-d3 w3-container w3-twothird">
           <div class="w3-theme-d3 w3-container">
-            <h3><a href="HomePage.html">Home</a>&nbsp;&nbsp;Blog</h3>
+            <h3><a href="index.php">Home</a>&nbsp;&nbsp;Blog</h3>
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="HomePage.html" style="color:#0000ff;">Home</a> > Contact
+          <a href="index.php" style="color:#0000ff;">Home</a> > Contact
         </div>
       </div>
     </div>

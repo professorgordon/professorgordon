@@ -50,7 +50,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-content">
         <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;Professor John Gordon</h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
-            <h3><a href="blog.html">Blog</a>&nbsp;&nbsp;<a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3><a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;
               <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="30" width="30"></a>&nbsp;&nbsp;
             </h3>
@@ -90,7 +90,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="itindustry.html"><img src="images\TopicITIndustry200x140_wLabels.png" alt="IT Industry" style="width:100%"></a>
+                    <a href="itindustry.php"><img src="images\TopicITIndustry200x140_wLabels.png" alt="IT Industry" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -99,7 +99,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="professionalskills.html"><img src="images\TopicProfessionalSkills200x140_wLabels.png" alt="Professional Skills" style="width:100%"></a>
+                    <a href="professionalskills.php"><img src="images\TopicProfessionalSkills200x140_wLabels.png" alt="Professional Skills" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -108,7 +108,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="java.html"><img src="images\TopicJava200x140_wLabels.png" alt="Java" style="width:100%"></a>
+                    <a href="java.php"><img src="images\TopicJava200x140_wLabels.png" alt="Java" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="python.html"><img src="images\TopicPython200x140_wLabels.png" alt="Python" style="width:100%"></a>
+                    <a href="python.php"><img src="images\TopicPython200x140_wLabels.png" alt="Python" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="linux.html"><img src="images\TopicLinux200x140_wLabels.png" alt="Linux" style="width:100%"></a>
+                    <a href="linux.php"><img src="images\TopicLinux200x140_wLabels.png" alt="Linux" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="git.html"><img src="images\TopicGit200x140_wLabels.png" alt="Git" style="width:100%"></a>
+                    <a href="git.php"><img src="images\TopicGit200x140_wLabels.png" alt="Git" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="sql.html"><img src="images\TopicSQL200x140_wLabels.png" alt="SQL" style="width:100%"></a>
+                    <a href="sql.php"><img src="images\TopicSQL200x140_wLabels.png" alt="SQL" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="humans.html"><img src="images\TopicHumans200x140_wLabels.png" alt="For Humans" style="width:100%"></a>
+                    <a href="humans.php"><img src="images\TopicHumans200x140_wLabels.png" alt="For Humans" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content w3-center w3-small">
-          &copy; 2019-2020 <a href="Contact.html" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
+          &copy; 2019-2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
           <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
         <br>
         <br>

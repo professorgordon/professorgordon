@@ -3,8 +3,6 @@
 <title>Professor John Gordon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   -->
-
 <link rel="stylesheet" href="css\w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,9 +17,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="homepage.html">Professor John Gordon</a></h3></div>
+        <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="index.php">Professor John Gordon</a></h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
-            <h3><a href="homepage.html">Home</a>&nbsp;&nbsp;<a href="blog.html">Blog</a>&nbsp;&nbsp;<a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;
               <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="30" width="30"></a>&nbsp;&nbsp;
             </h3>
@@ -32,7 +30,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="HomePage.html" style="color:#0000ff;">Home</a> > IT Industry
+          <a href="index.php" style="color:#0000ff;">Home</a> > IT Industry
         </div>
       </div>
     </div>
@@ -94,8 +92,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-container">
                   <p>
                     <ul>
-                      <li><a href="article-structureofanitdepartment.html" style="color:#0000ff;">Structure of IT Departments</a></li>
-                      <li><a href="article-professionalskillsoverview.html" style="color:#0000ff;">Professional Skills Overview</a></li>
+                      <li><a href="article-structureofanitdepartment.php" style="color:#0000ff;">Structure of IT Departments</a></li>
+                      <li><a href="article-professionalskillsoverview.php" style="color:#0000ff;">Professional Skills Overview</a></li>
                       <li><a href="" style="color:#0000ff;">Programming as a Career</a></li>
                     </ul>
                   </p>
@@ -197,7 +195,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content w3-center w3-small">
         <p>
-          &copy; 2020 <a href="Contact.html" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
+          &copy; 2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
           <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
         </p>
         <br>
