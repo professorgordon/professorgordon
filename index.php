@@ -200,6 +200,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
 
     <!-- Projects -->
+<!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l1 w3-container">
@@ -234,6 +235,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
+-->
 
 <!-- Footer  -->
 
