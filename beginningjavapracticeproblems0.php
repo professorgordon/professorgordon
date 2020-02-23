@@ -70,78 +70,6 @@ s
               <div class="w3-card-4 w3-margin w3-white">
                 <br>
 
-
-                <div class="w3-row">
-                  <div class="w3-content">
-
-                    <div class="w3-card-4 w3-margin w3-white">
-                        <button onclick="myFunction('Problem1')" class="w3-btn w3-block w3-theme-l3 w3-left-align">
-                          <p>
-                            <h3>Problem 1</h3>
-                            Print the following phrase to the console using one print statement:
-                          </p>
-                          <p style="color:red">
-                            Hello World!
-                          </p>
-                        </button>
-                        <div id="Problem1" class="w3-container w3-hide">
-                          <h3>Solution</h3>
-                          <p>
-                            This solution uses the print statement.  Remember that print outputs the text between the quote "" symbols to the console and after the code runs, the cursor does not move to the next line, it remains positioned immediately after the last character of the output.
-<pre style="color:red">
-public class Practice
-{
-    public static void main(String[] args)
-    {
-        System.out.print("Hello World!");
-    }
-}
-</pre>
-                          </p>
-                        </div>
-                    </div>
-
-
-                    <div class="w3-card-4 w3-margin w3-white">
-                        <button onclick="myFunction('Problem2')" class="w3-btn w3-block w3-theme-l3 w3-left-align">
-                          <p>
-                            <h3>Problem 2</h3>
-                            Print the following words to the console using two println statements:
-                          </p>
-                          <p style="color:red">
-                            Hello<br>
-                            World!
-                          </p>
-                        </button>
-                        <div id="Problem2" class="w3-container w3-hide">
-                          <h3>Solution</h3>
-                          <p>
-                            This solution uses two println statements. Remember that println outputs the text between the quote "" symbols to the console and the cursor then moves down to the next line, so in this example, after the code runs, the cursor would be on the next blank line after the word "World!" was output to the console.
-<pre style="color:red">
-  public class Practice
-  {
-      public static void main(String[] args)
-      {
-          System.out.println("Hello");
-          System.out.println("World!");
-      }
-  }
-</pre>
-                          </p>
-                        </div>
-                    </div>
-
-
-
-
-                  </div>
-                </div>
-
-
-
-<!--
-
-
                 <div class="w3-row">
                   <div class="w3-content">
                     <div class="w3-card-4 w3-margin w3-white">
@@ -159,11 +87,6 @@ public class Practice
                     </div>
                   </div>
                 </div>
-
-
-
-
-
 
                 <div class="w3-content">
                   <div class="w3-card-4 w3-margin w3-white">
@@ -196,7 +119,7 @@ public class Practice
                     </p>
                   </div>
                 </div>
--->
+
                 </div>
                 <br>
                 <br>
@@ -290,16 +213,22 @@ public class Practice
 </div>
 
 <script>
-function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
 </script>
-
 
 </body>
 </html>
