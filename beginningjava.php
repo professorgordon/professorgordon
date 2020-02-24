@@ -71,7 +71,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                    <ul>
+                    <ol>
                       <li>Java Versions & Editions</li>
                       <li>Installation</li>
                       <li>Console vs GUI Applications</li>
@@ -101,17 +101,18 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                    <ul>
-                      <li>001 - Printing to the Console</li>
-                      <li>002 - Variables</li>
-                      <li>003 - Data Types</li>
-                      <li>004 - Operators</li>
-                      <li>005 - Scanner</li>
-                      <li>006 - Control Structures</li>
-                      <li>007 - Classes</li>
-                      <li>008 - Random Numbers</li>
-                      <li>009 - Loops</li>
-                      <li>010 - Arrays</li>
+                    <ol>
+                      <li><a href="beginningjava1000.php" style="color:#0000ff;">Printing to the Console</a></li>
+                      <li><a href="beginningjava1100.php" style="color:#0000ff;">Variables I</a></li>
+                      <li>Data Types</li>
+                      <li>Operators</li>
+                      <li>Scanner</li>
+                      <li>Control Structures</li>
+                      <li>Variables II</li>
+                      <li>Classes</li>
+                      <li>Random Numbers</li>
+                      <li>Loops</li>
+                      <li>Arrays</li>
                     </ul>
                   </p>
                   <br>

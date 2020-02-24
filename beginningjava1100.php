@@ -1,4 +1,3 @@
-s
 <!DOCTYPE html>
 <html>
 <title>Professor John Gordon</title>
@@ -32,7 +31,7 @@ s
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="java.php" style="color:#0000ff;">Java</a> > Beginning Java
+          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="java.php" style="color:#0000ff;">Java</a> > <a href="beginningjava.php" style="color:#0000ff;">Beginning Java</a> > Java Programming Practice Problems: Variables
         </div>
       </div>
     </div>
@@ -68,17 +67,26 @@ s
           <div class="w3-row">
             <div class="w3-content">
               <div class="w3-card-4 w3-margin w3-white">
-                <br>
 
+                <br>
+                <div class="w3-row">
+                  <div class="w3-container">
+                    <h4>Variables I</h4>
+                    <p>
+                      The problems on this page provide practice with the Java <b><i>print</i></b>, <b><i>println</i></b> and <b><i>printf</i></b> statements.
+                      For each problem, I recommend that you read the problem and try to code a solution in your IDE before looking at
+                      the solution. After you have coded your solution, click the problem to review a possible solution to the problem.
+                    </p>
+                  </div>
+                </div>
 
                 <div class="w3-row">
                   <div class="w3-content">
 
                     <div class="w3-card-4 w3-margin w3-white">
-                        <button onclick="myFunction('Problem1')" class="w3-btn w3-block w3-theme-l3 w3-left-align">
+                        <button onclick="myFunction('Problem1')" class="w3-btn w3-block w3-theme-l4 w3-left-align">
                           <p>
-                            <h3>Problem 1</h3>
-                            Print the following phrase to the console using one print statement:
+                            <b>Problem 1</b>: Print the following phrase to the console using <b>one print</b> statement:
                           </p>
                           <p style="color:red">
                             Hello World!
@@ -103,10 +111,9 @@ public class Practice
 
 
                     <div class="w3-card-4 w3-margin w3-white">
-                        <button onclick="myFunction('Problem2')" class="w3-btn w3-block w3-theme-l3 w3-left-align">
+                        <button onclick="myFunction('Problem2')" class="w3-btn w3-block w3-theme-l4 w3-left-align">
                           <p>
-                            <h3>Problem 2</h3>
-                            Print the following words to the console using two println statements:
+                            <b>Problem 2</b>: Print the following words to the console using <b>two println</b> statements:
                           </p>
                           <p style="color:red">
                             Hello<br>
@@ -131,9 +138,105 @@ public class Practice
                         </div>
                     </div>
 
+                    <div class="w3-card-4 w3-margin w3-white">
+                        <button onclick="myFunction('Problem3')" class="w3-btn w3-block w3-theme-l4 w3-left-align">
+                          <p>
+                            <b>Problem 3</b>: Print the following words to the console using <b>one print</b> statement<br>
+                            combined with the appropriate <b>escape sequences</b> in order to format the output like the<br>
+                            example below. Also, after your code runs, the cursor should be on the next blank line<br>
+                            following your output:
+                          </p>
+                          <p style="color:red">
+                            Hello<br>
+                            World!
+                          </p>
+                        </button>
+                        <div id="Problem3" class="w3-container w3-hide">
+                          <h3>Solution</h3>
+                          <p>
+                            This solution uses one print statement, combined with the appropriate escape squences (\n) to format the output as indicated in the problem statement. Also, after the code runs, the cursor is on the next blank line after the output based on the final escape sequence in the code.
+<pre style="color:red">
+  public class Practice
+  {
+      public static void main(String[] args)
+      {
+          System.out.print("Hello\nWorld!\n");
+      }
+  }
+</pre>
+                          </p>
+                        </div>
+                    </div>
+
+
+                    <div class="w3-card-4 w3-margin w3-white">
+                        <button onclick="myFunction('Problem4')" class="w3-btn w3-block w3-theme-l4 w3-left-align">
+                          <p>
+                            <b>Problem 4</b>: Print the following words to the console using <b>one print</b> statement<br>
+                            combined with the appropriate <b>escape sequences</b> in order to format the output like the<br>
+                            example below (note the tab spacing of the second line). Also, after your code runs, the<br>
+                            cursor should be on the next blank line following your output:
+                          </p>
+                          <p style="color:red">
+                            Hello<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World!
+                          </p>
+                        </button>
+                        <div id="Problem4" class="w3-container w3-hide">
+                          <h3>Solution</h3>
+                          <p>
+                            This solution uses one print statement, combined with the appropriate escape squences (\n and \t) to format the output as indicated in the problem statement. Also, after the code runs, the cursor is on the next blank line after the output based on the final escape sequence in the code.
+<pre style="color:red">
+public class Practice
+{
+    public static void main(String[] args)
+    {
+        System.out.print("Hello\n\tWorld!\n");
+    }
+}
+</pre>
+                          </p>
+                        </div>
+                    </div>
+
+
+                    <div class="w3-card-4 w3-margin w3-white">
+                        <button onclick="myFunction('Problem5')" class="w3-btn w3-block w3-theme-l4 w3-left-align">
+                          <p>
+                            <b>Problem 5</b>: Print the following character pattern to the console using <b>one print</b> statement<br>
+                            combined with the appropriate <b>spaces and/or escape sequences</b> in order to format the output like the<br>
+                            example below. Also, after your code runs, the cursor should be on the next blank line following<br>your output:
+                          </p>
+                          <p style="color:red">
+<pre style="color:red">
+   *
+  ***
+ *****
+*******
+</pre>
+                          </p>
+                        </button>
+                        <div id="Problem5" class="w3-container w3-hide">
+                          <h3>Solution</h3>
+                          <p>
+                            This solution uses one print statement, combined with the appropriate spaces and escape squences (\n) to format the character pattern indicated in the problem statement. Also, after the code runs, the cursor is on the next blank line after the output based on the final escape sequence in the code.
+<pre style="color:red">
+public class Practice
+{
+    public static void main(String[] args)
+    {
+        System.out.print(" *\n ***\n *****\n*******\n");
+    }
+}
+</pre>
+                          </p>
+                        </div>
+                    </div>
 
 
 
+                    <!-- Bottom -->
+                    <br><br>
                   </div>
                 </div>
 
