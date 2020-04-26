@@ -45,12 +45,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-theme-l1 w3-container">
-          <h4>Git</h4>
+        <div class="w3-half w3-container w3-theme-l1">
+          <h4>Git & GitHub</h4>
+        </div>
+        <div align="right" class="w3-half w3-container w3-theme-l1">
+          <a href="subscribe.php" title="Subscribe to non-spam news & updates."><h4>Subscribe</h4></a>
         </div>
       </div>
     </div>
-
 
     <div class="w3-row">
       <div class="w3-content">
