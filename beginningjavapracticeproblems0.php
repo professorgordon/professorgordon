@@ -1,22 +1,4 @@
-<?php
-  require_once "system/db.php";
-  $sql = "SELECT topic, jt_id FROM java_topics ORDER BY display_order";
-  $result = $connection->query($sql);
-  if ($result>num_rows > 0)
-  {
-    while($row = $result->fetch_assoc())
-    {
-      echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
-    }
-  }
-  else
-  {
-      echo "No query results";
-  }
-    $connection->close();
-  }
-?>
-
+s
 <!DOCTYPE html>
 <html>
 <title>Professor John Gordon</title>
@@ -114,37 +96,26 @@
                   <div id="Problem" class="tabcontent">
                     <h4>Problem</h4>
                     <p>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
-                      Instructions<br>
+                      Print the following phrase to the console using one print statement:
+                    </p>
+                    <p style="color:red">
+                      Hello World!
                     </p>
                   </div>
 
                   <div id="Solution" class="tabcontent">
                     <h3>Solution</h3>
                     <p>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
-                      Solution<br>
+                      This solution uses the print statement.  Remember that print outputs the text between the quote "" symbols to the console and after the code runs, the cursor does not move to the next line, it remains positioned immediately after the last character of the output.
+<pre style="color:red">
+public class Practice
+{
+    public static void main(String[] args)
+    {
+        System.out.print("Hello World!");
+    }
+}
+</pre>
                     </p>
                   </div>
                 </div>
