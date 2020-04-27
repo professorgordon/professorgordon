@@ -47,12 +47,14 @@ s
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-theme-l1 w3-container">
+        <div class="w3-half w3-container w3-theme-l1">
           <h4>Beginning Java Practice Problems</h4>
+        </div>
+        <div align="right" class="w3-half w3-container w3-theme-l1">
+          <a href="subscribe.php" title="Subscribe to non-spam news & updates."><h4>Subscribe</h4></a>
         </div>
       </div>
     </div>
-
 
     <div class="w3-row">
       <div class="w3-content">
