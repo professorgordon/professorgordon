@@ -79,7 +79,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="10%" width="10%"></a>
               </div>
 
-              <div class="w3-container w3-half">
+              <div class="w3-container w3-half w3-white w3-card-4">
                 <h3>John Gordon</h3>
                 <h5><b>Salt Lake Community College</b><br>
                   Assistant Professor<br>
