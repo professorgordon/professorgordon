@@ -84,14 +84,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <h5><b>Salt Lake Community College</b><br>
                   Assistant Professor<br>
                   Computer Science & Information Systems<br>
-                  <a href="mailto:john.gordon@slcc.edu">john.gordon@slcc.edu</a>
+                  <a style="color:#0000ff;" href="mailto:john.gordon@slcc.edu">john.gordon@slcc.edu</a>
                 </h5>
                 <br>
                 <h5>
                   <b>University of Utah</b><br>
                   MSIS / GCBA<br>
                   David Eccles School of Business<br>
-                  <a href="mailto:john.gordon@utah.edu">john.gordon@utah.edu</a>
+                  <a style="color:#0000ff;" href="mailto:john.gordon@utah.edu">john.gordon@utah.edu</a>
                 </h5>
               </div>
 

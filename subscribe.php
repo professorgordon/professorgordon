@@ -1,3 +1,29 @@
+<?php
+    if(isset($_POST['SubscribeButton']))
+    {
+      $servername = '127.0.0.1:3308';
+      $username = 'root';
+      $password = '';
+      $database = 'professorgordon';
+      $connection = new mysqli($servername, $username, $password, $database);
+      if ($connection->connect_error)
+      {
+        echo "Connection Error: Unable to connect to MySQL." . PHP_EOL;
+        die("Connection Error: " . $connection->connect_error);
+      }
+      $FirstName = $_POST['FirstName'];
+      $LastName = $_POST['LastName'];
+      $EmailAddress = $_POST['EMail'];
+      date_default_timezone_set("America/Denver");
+      $Subscribed = date('Y-m-d H:i:s');
+      $query = "INSERT INTO subscriptions (first_name, last_name, email_address, subscribed, status) VALUES ('" . $FirstName . "','" . $LastName . "','" . $EmailAddress . "','" . $Subscribed . "', 'Subscribed')";
+      $result = $connection -> query($query);
+      if(!$result) die($connection->error);
+      $message = "<p style='color: red'><b>Thank you for subscribing " . $FirstName . "!</b></p>";
+      $connection -> close();
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -141,13 +167,14 @@ input[type=submit]:hover {
                   <p>From time to time I email updates and news to my subscribers. If you would like to receive this non-spam information from me fill out the form below. You can opt out of future emails easily by following the unsubscribe link that is included at the bottom of all of my update  emails.</p>
                   <div class="container w3-card-4">
 
-                    <form action="system/newsubscription.php">
+<!--                    <form action="system/newsubscription.php" method='get'>   -->
+                    <form action="#" method='post'>
                     <div class="row">
                       <div align="right" class="col-25">
                         <label for="fname">First Name</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your first name ...">
+                        <input type="text" id="fname" name="FirstName" placeholder="Your first name ...">
                       </div>
                     </div>
                     <div class="row">
@@ -155,7 +182,7 @@ input[type=submit]:hover {
                         <label for="lname">Last Name</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name ...">
+                        <input type="text" id="lname" name="LastName" placeholder="Your last name ...">
                       </div>
                     </div>
                     <div class="row">
@@ -163,12 +190,13 @@ input[type=submit]:hover {
                         <label for="email">Email</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="email" name="email" placeholder="Your email adddress ...">
+                        <input type="text" id="email" name="EMail" placeholder="Your email adddress ...">
                       </div>
                     </div>
                     <div align="middle" class="row">
                       <br>
-                      <input type="submit" value="Subscribe">
+                      <?php if(isset($message)){echo $message;}?>
+                      <input type="submit" name="SubscribeButton" value="Subscribe">
                     </div>
                     </form>
 

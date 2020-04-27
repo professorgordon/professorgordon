@@ -12,7 +12,8 @@
   }
   echo '<b>Connection</b>: Successful<br>';
   echo '<b>Host information</b>: ' . mysqli_get_host_info($connection) . "<br />";
-  echo '<b>Database</b>: ' . $database . "<br /><br />";
+  echo '<b>Database</b>: ' . $database . "<br />";
+  echo '<b>Date</b>: ' . date('Y-m-d H:i:s') . "<br /><br />";
 
   $query = "SELECT topic_number, topic, jt_id FROM java_topics ORDER BY topic_number";
   if ($result = $connection->query($query))
