@@ -19,7 +19,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-content">
         <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;<a href="index.php">Professor John Gordon</a></h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
-            <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="articles.php">Articles</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;
               <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="30" width="30"></a>&nbsp;&nbsp;
             </h3>
@@ -145,7 +145,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                         <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0136520235/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0136520235&linkCode=as2&tag=professorgord-20&linkId=be73fa68279eabdef325bfb60d6ed831">Introduction to Java Programming and Data Structures, Comprehensive Version</a>, by Y Daniel Liang, 12th Edition, 2019.
                       </li>
                       <li>
-                        
+
                       </li>
                     </ul>
                   </p>

@@ -22,7 +22,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
         <div align="right" class="w3-theme-d3 w3-container w3-twothird">
           <div class="w3-theme-d3 w3-container">
-            <h3><a href="index.php">Home</a>&nbsp;&nbsp;Blog</h3>
+            <h3><a href="index.php">Home</a>&nbsp;&nbsp;<a href="articles.php">Articles</a>&nbsp;&nbsp;Blog</h3>
           </div>
         </div>
       </div>

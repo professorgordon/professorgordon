@@ -75,94 +75,70 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                   <p>Here is a list of all articles on this site organized by topic.</p>
                 </div>
 
-                <div class="w3-container">
-                  <h4>Git & GitHub</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>Humans</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>IT Industry</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>Java</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>Linux</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>Professional Skills</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
+                <div class="w3-row">
+                  <div class="w3-half w3-container">
+                    <h4>Git & GitHub</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>Humans</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>IT Industry</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>Java</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="w3-half w3-container">
+                    <h4>Linux</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>Professional Skills</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>Python</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                    <h4>SQL</h4>
+                    <p>
+                      <ul>
+                        <li>
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
                 </div>
 
-                <div class="w3-container">
-                  <h4>Python</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="w3-container">
-                  <h4>SQL</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li></li>
-                    </ul>
-                  </p>
-                </div>
-
+                <br>
               </div>
             </div>
           </div>
@@ -186,8 +162,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-
-
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container">
@@ -195,36 +169,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
-
-    <!-- Projects -->
-    <!--
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l1 w3-container">
-          <h4>Current Projects</h4>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l3 w3-container">
-          <div class="w3-row">
-            <div class="w3-content">
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Project 1</h4>
-                </div>
-                <div class="w3-container">
-                  <p>Text text text text text text text text text text text text text text text.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
--->
 
     <!-- Footer  -->
     <div class="w3-row">
