@@ -94,8 +94,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                     <h4>IT Industry</h4>
                     <p>
                       <ul>
-                        <li>
-                        </li>
+                        <li><a href="article-structureofanitdepartment.php" style="color:#0000ff;">Structure of IT Departments</a></li>
                       </ul>
                     </p>
                     <h4>Java</h4>
@@ -117,8 +116,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                     <h4>Professional Skills</h4>
                     <p>
                       <ul>
-                        <li>
-                        </li>
+                        <li><a href="article-professionalskillsoverview.php" style="color:#0000ff;">Professional Skills Overview</a></li>
                       </ul>
                     </p>
                     <h4>Python</h4>
