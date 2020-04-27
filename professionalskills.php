@@ -73,7 +73,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                    <i>Forthcoming</i><br>
+                    Professional skills are competencies you develop over your lifetime. You use these skills all the time, often without even realizing it. We tend to take these kinds of skills for granted, and yet they are critical to having a successful career. Professional skills are often referred to as "soft skills," which has a connotation to it that seems to mean less important. However, these are the skills that often make the difference between landing jobs and advancing in your career.
                   </p>
                   <br>
                 </div>
@@ -118,9 +118,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                   <h4>Professional Skills Books I Like</h4>
                 </div>
                 <div class="w3-container">
-                  <p>
-                    <i>Forthcoming</i><br>
-                  </p>
+                  <ul>
+                    <li>
+                      <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1118725646/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118725646&linkCode=as2&tag=professorgord-20&linkId=2c415f513c1d4f1d78ea694757976d7c">Bridging the Soft Skills Gap: How to Teach the Missing Basics to Today's Young Talent</a>, by Bruce Tulgan, 2015.
+                    </li>
+                    <li>
+                      <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1617292397/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617292397&linkCode=as2&tag=professorgord-20&linkId=dfa87f55b9600aabb09ca07c5461c584">Soft Skills: The Software Developer's Life Manual</a>, by John Sonmez, 2015.
+                    </li>
+                    <li>
+                      <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/B00U4ZRQC6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00U4ZRQC6&linkCode=as2&tag=professorgord-20&linkId=5e9312eb99b41b1405f70051fd9b9cea">Software++: Must-Have Skills for Software Engineers</a>, by Cory Berg, 2015.
+                    </li>
+                    <li>
+                      <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0061284149/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0061284149&linkCode=as2&tag=professorgord-20&linkId=2f402a97baa9a23be26f6fac3ad12009">The Hard Truth About Soft Skills</a>, by Peggy Klaus, 2009.
+                    </li>
+                  </ul>
                   <br>
                 </div>
               </div>
