@@ -176,9 +176,18 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-container">
                   <p>
                     <ul>
-                      <li><a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1593279280/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279280&linkCode=as2&tag=jgordon-20&linkId=eb28c1d9c721c3ef9be810bf3788e596s">Python Crash Course</a>, 2nd Edition, 2019, Eric Matthes.</li>
-                      <li><a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1590282752/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1590282752&linkCode=as2&tag=jgordon-20&linkId=24bca6d6d798baab58bcf4927eb7c977">Python Programming: An Introduction to Computer Science</a>, 3rd Edition, 2016, by John Zelle.</li>
-                      <li><a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0262529629/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0262529629&linkCode=as2&tag=jgordon-20&linkId=a742f9ce4dc68cf1e20308006f2ebc1e">Introduction to Computation and Programming Using Python</a>, 2nd Edition, 2016, by John Guttag</li>
+                      <li>
+                        <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1593279922/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279922&linkCode=as2&tag=professorgord-20&linkId=a2f9993bc4bbd13420d4232e67e75783">Automate the Boring Stuff with Python</a>, 2nd Edition, 2019, by Al Sweigart
+                      </li>
+                      <li>
+                        <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0262529629/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0262529629&linkCode=as2&tag=professorgord-20&linkId=4a688faca9d8941675bde1599cc833f3">Introduction to Computation and Programming Using Python</a>, 2nd Edition, 2016, by John Guttag
+                      </li>
+                      <li>
+                        <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1593279280/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279280&linkCode=as2&tag=professorgord-20&linkId=3827dfb51fea0ec6e3590ee2c5a1e38a">Python Crash Course</a>, 2nd Edition, 2019, by Eric Matthes.
+                      </li>
+                      <li>
+                        <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/1590282752/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1590282752&linkCode=as2&tag=professorgord-20&linkId=5e0b54fe314ecf481904b694fda6c0c5">Python Programming: An Introduction to Computer Science</a>, 3rd Edition, 2016, by John Zelle.
+                      </li>
                     </ul>
                   </p>
                   <br>

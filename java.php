@@ -141,7 +141,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-container">
                   <p>
                     <ul>
-                      <li><a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0136520235/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0136520235&linkCode=as2&tag=jgordon-20&linkId=21c90e9706e8221f603c8b715c2bb210">Introduction to Java Programming and Data Structures, Comprehensive Version</a>, by Y Daniel Liang, 12th Edition, 2017.</li>
+                      <li>
+                        <a style="color:#0000ff;" target="_blank" href="https://www.amazon.com/gp/product/0136520235/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0136520235&linkCode=as2&tag=professorgord-20&linkId=be73fa68279eabdef325bfb60d6ed831">Introduction to Java Programming and Data Structures, Comprehensive Version</a>, by Y Daniel Liang, 12th Edition, 2019.
+                      </li>
+                      <li>
+                        
+                      </li>
                     </ul>
                   </p>
                   <br>

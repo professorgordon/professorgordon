@@ -139,7 +139,7 @@ input[type=submit]:hover {
                 </div>
                 <div class="w3-container">
                   <p>From time to time I email updates and news to my subscribers. If you would like to receive this non-spam information from me fill out the form below. You can opt out of future emails easily by following the unsubscribe link that is included at the bottom of all of my update  emails.</p>
-                  <div class="container">
+                  <div class="container w3-card-4">
 
                     <form action="system/newsubscription.php">
                     <div class="row">
@@ -147,7 +147,7 @@ input[type=submit]:hover {
                         <label for="fname">First Name</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name ...">
                       </div>
                     </div>
                     <div class="row">
@@ -155,7 +155,7 @@ input[type=submit]:hover {
                         <label for="lname">Last Name</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name ...">
                       </div>
                     </div>
                     <div class="row">
@@ -163,7 +163,7 @@ input[type=submit]:hover {
                         <label for="email">Email</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="email" name="email" placeholder="Your email adddress..">
+                        <input type="text" id="email" name="email" placeholder="Your email adddress ...">
                       </div>
                     </div>
                     <div align="middle" class="row">

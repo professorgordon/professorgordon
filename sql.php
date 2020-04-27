@@ -74,13 +74,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
 
                 <div class="w3-row">
-                  <div class="w3-container w3-twothird w3-white">
+                  <div class="w3-container w3-threequarter w3-white">
                     <p>
                       I have worked in data for many years. What does that mean, <i>work in data</i>? Databases are the foundation of nearly every business application, in-house, web-based, mobile, cloud, etc. I've worked as a Database Developer, Administrator, Architect and heavily in data analytics, transformations and data warehousing during my career. SQL is the core language of interacting with data regardless of the database vendor (Microsoft, Oracle, mySql, etc.) or programming language you may be using (C, C++, C#, Java, Python, etc.). When you <i>work in data</t>, SQL is, quite literally, a way of life.
                     </p>
                   </div>
-                  <div class="w3-container w3-third w3-white w3-center">
-                    <img src="images\logoAzureSql.png" height="50%" width="50%" alt="Mug" title="Yes, I own this mug.">
+                  <div class="w3-container w3-quarter w3-white w3-center">
+                    <br>
+                    <img src="images\logoAzureSql.png" height="70%" width="70%" alt="Database" title="Database">
                   </div>
                 </div>
                 <br>
@@ -174,10 +175,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                    <ul>
-                      <li><a style="color:#0000ff;" href="https://www.amazon.com/SQL-Queries-Mere-Mortals-Hands-ebook/dp/B079G27STM/ref=sr_1_1?crid=FXQD1NLOQU90&dchild=1&keywords=sql+queries+for+mere+mortals+4th+edition&qid=1587919690&sprefix=sql+for+mere+%2Caps%2C213&sr=8-1" target="_blank">SQL Queries for Mere Mortals</a>, 4th Edition, 2018, John Viescas.</li>
-                    </ul>
+                    <a style="color:#0000ff;" href="https://www.amazon.com/gp/product/0134858336/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134858336&linkCode=as2&tag=professorgord-20&linkId=658723a8962de9374751b3472e6d3035" target="_blank">SQL Queries for Mere Mortals</a>, 4th Edition, 2018, John Viescas.
                   </p>
+<!--
+                <table class="w3-table">
+                  <tr>
+                    <td>
+                      <a target="_blank" href="https://www.amazon.com/gp/product/0134858336/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134858336&linkCode=as2&tag=professorgord-20&linkId=581c428e9fcacf3753adb0479fe546d0"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134858336&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=professorgord-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=professorgord-20&l=am2&o=1&a=0134858336" width="20" height="20" border="0" alt="" style="border:none !important; margin:0px !important; height: 40;" />
+                    </td>
+                    <td>
+                      <a style="color:#0000ff;" href="https://www.amazon.com/gp/product/0134858336/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134858336&linkCode=as2&tag=professorgord-20&linkId=658723a8962de9374751b3472e6d3035" target="_blank">SQL Queries for Mere Mortals</a>, 4th Edition, 2018, John Viescas.
+                    </td>
+                  </tr>
+                  </table>
+-->
                   <br>
                 </div>
               </div>

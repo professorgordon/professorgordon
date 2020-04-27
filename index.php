@@ -130,9 +130,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-
-
-
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
@@ -194,6 +191,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
+    <!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container">
@@ -202,8 +200,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-    <!-- Projects -->
-<!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l1 w3-container">
