@@ -50,7 +50,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-content">
         <div class="w3-col w3-theme-d3" style="width:50%"><h3>&nbsp;&nbsp;Professor John Gordon</h3></div>
         <div align="right" class="w3-col w3-theme-d3" style="width:50%">
-            <h3><a href="articles.php">Articles</a>&nbsp;&nbsp;<a href="blog.php">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3><a href="articles.php">Articles</a>&nbsp;&nbsp;<a href="blog.php?c=0">Blog</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/johncalvingordon/" target="_blank"><img src="images\LinkedIn-Logo-150x150.png" height="30" width="30"></a>&nbsp;
               <a href="https://twitter.com/ProfJGordon" target="_blank"><img src="images\twitter_PNG32-150x150.png" height="30" width="30"></a>&nbsp;&nbsp;
             </h3>
@@ -186,7 +186,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
-          <br><br>
+          <br><br><br><br>
         </div>
       </div>
     </div>
@@ -245,30 +245,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div align="right" class="w3-theme-l1 w3-container">
-          &nbsp;<!--<a href="subscribe.php"><h4>Subscribe</h4></a>-->
-        </div>
-      </div>
-    </div>
+    <?php include 'footer.php';?>
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l4 w3-container">
-          <br>
-        </div>
-      </div>
-    </div>
 
-    <div class="w3-row">
-      <div class="w3-content w3-center w3-small">
-          &copy; 2019-2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
-          <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
-        <br>
-        <br>
-      </div>
-    </div>
 
 <!-- Theme -->
 <!--

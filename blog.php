@@ -1,3 +1,27 @@
+<?php
+    $servername = '127.0.0.1:3308';
+    $username = 'root';
+    $password = '';
+    $database = 'professorgordon';
+    $connection = new mysqli($servername, $username, $password, $database);
+    if ($connection->connect_error)
+    {
+      echo "Connection Error: Unable to connect to MySQL." . PHP_EOL;
+      die("Connection Error: " . $connection->connect_error);
+    }
+    $categories = '';
+    $query = "SELECT category, category_id FROM categories ORDER BY category";
+    if ($result = $connection->query($query))
+    {
+      while ($row = $result->fetch_assoc())
+      {
+          $categories = $categories . '<a style="color:#0000ff;" href="blog.php?c=' . $row["category_id"] . '">' . $row["category"] . '</a><br>';
+      }
+    }
+    $result->free();
+    $connection->close();
+?>
+
 <!DOCTYPE html>
 <html>
 <title>Professor John Gordon</title>
@@ -68,36 +92,78 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           <div class="w3-row">
             <div class="w3-content">
 
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Subtitle</h4>
+              <div class="w3-row">
+
+                <div class="w3-threequarter">
+
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Subtitle</h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>Text text text text text text text text text text text text text text text.</p>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Subtitle</h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>Text text text text text text text text text text text text text text text.</p>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Subtitle</h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>Text text text text text text text text text text text text text text text.</p>
+                      <br>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="w3-container">
-                  <p>Text text text text text text text text text text text text text text text.</p>
-                  <br>
+
+                <div class="w3-quarter">
+
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Share My Blog</h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>Text text text text text text text text text text text text text text text.</p>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Categories  </h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>
+                        <?php echo $categories; ?>
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+<!--
+                  <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                      <h4>Tags</h4>
+                    </div>
+                    <div class="w3-container">
+                      <p>Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag Tag </p>
+                      <br>
+                    </div>
+                  </div>
+-->
                 </div>
               </div>
-
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Subtitle</h4>
-                </div>
-                <div class="w3-container">
-                  <p>Text text text text text text text text text text text text text text text.</p>
-                  <br>
-                </div>
-              </div>
-
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Subtitle</h4>
-                </div>
-                <div class="w3-container">
-                  <p>Text text text text text text text text text text text text text text text.</p>
-                  <br>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
@@ -120,57 +186,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
+    <?php include 'footer.php';?>
 
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l4 w3-container">
-          <br>
-        </div>
-      </div>
-    </div>
 
-    <!-- Projects -->
-    <!--
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l1 w3-container">
-          <h4>Current Projects</h4>
-        </div>
-      </div>
-    </div>
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l3 w3-container">
-          <div class="w3-row">
-            <div class="w3-content">
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Project 1</h4>
-                </div>
-                <div class="w3-container">
-                  <p>Text text text text text text text text text text text text text text text.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
--->
 
-    <!-- Footer  -->
-    <div class="w3-row">
-      <div class="w3-content w3-center w3-small">
-        <p>
-          &copy; 2019-2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
-          <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
-        </p>
-        <br>
-        <br>
-      </div>
-    </div>
+
+
+
 
 <!--
     <div class="w3-row">
