@@ -183,36 +183,29 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l3 w3-container">
-          <br><br><br><br>
-        </div>
-      </div>
-    </div>
 
-    <!--
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-theme-l4 w3-container">
-          <br>
+        <div class="w3-container w3-theme-l3">
+          <br><br>
         </div>
       </div>
     </div>
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-theme-l1 w3-container">
-          <h4>Current Projects</h4>
+        <div class="w3-container w3-theme-l1">
+          <h5>Projects</h5>
         </div>
       </div>
     </div>
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-theme-l3 w3-container">
+        <div class="w3-container w3-theme-l3">
           <div class="w3-row">
             <div class="w3-content">
+
               <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
                   <h4>Project 1</h4>
@@ -221,22 +214,23 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                   <p>Text text text text text text text text text text text text text text text.</p>
                 </div>
               </div>
+
+              <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                  <h4>Project 2</h4>
+                </div>
+                <div class="w3-container">
+                  <p>Text text text text text text text text text text text text text text text.</p>
+                </div>
+              </div>
+
+              <br>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l3 w3-container">
-          <br>
-        </div>
-      </div>
-    </div>
--->
-
-<!-- Footer  -->
+</div>
 
     <div class="w3-row">
       <div class="w3-content">

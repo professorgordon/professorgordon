@@ -111,14 +111,6 @@ for(int i = 0; i < 10; i++)
       </div>
     </div>
 
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l4 w3-container">
-          <br>
-        </div>
-      </div>
-    </div>
-
     <!-- Projects -->
     <div class="w3-row">
       <div class="w3-content">
@@ -147,14 +139,7 @@ for(int i = 0; i < 10; i++)
       </div>
     </div>
 
-    <!-- Footer  -->
-    <div class="w3-row">
-      <div class="w3-content w3-center w3-small">
-        <p>&copy; 2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.</p>
-        <br>
-        <br>
-      </div>
-    </div>
+    <?php include 'footer.php';?>
 
     <div class="w3-row">
       <div class="w3-content">

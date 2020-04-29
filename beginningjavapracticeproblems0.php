@@ -149,27 +149,7 @@ public class Practice
       </div>
     </div>
 
-
-    <div class="w3-row">
-      <div class="w3-content">
-        <div class="w3-theme-l4 w3-container">
-          <br>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Footer  -->
-    <div class="w3-row">
-      <div class="w3-content w3-center w3-small">
-        <p>
-          &copy; 2020 <a href="contact.php" style="color:#0000ff;">John Calvin Gordon</a>. All rights reserved.<br>
-          <b>Disclaimer</b>: All views, thoughts and opinions expressed herein are my own.
-        </p>
-        <br>
-        <br>
-      </div>
-    </div>
+    <?php include 'footer.php';?>
 
 <!--
     <div class="w3-row">

@@ -119,11 +119,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-    <div class="w3-row">
-      <div class="w3-content w3-center w3-small">
-        <p>&copy; 2020 John Calvin Gordon. All rights reserved.</p>
-      </div>
-    </div>
+    <?php include 'footer.php';?>
 
 
 <!--
