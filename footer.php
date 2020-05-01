@@ -13,10 +13,10 @@
       <a href="humans.php">Humans</a>&nbsp;&nbsp;&nbsp;
       <br>
       <a href="articles.php">Articles</a>&nbsp;&nbsp;&nbsp;
-      <a href="blog.php">Blog</a>&nbsp;&nbsp;&nbsp;
+      <a href="blog.php?c=0">Blog</a>&nbsp;&nbsp;&nbsp;
       <a href="contact.php">Contact</a>&nbsp;&nbsp;&nbsp;
-      Disclaimer&nbsp;&nbsp;&nbsp;
-      Privacy Policy&nbsp;&nbsp;&nbsp;
+      <a href="disclaimer.php">Disclaimer</a>&nbsp;&nbsp;&nbsp;
+      <a href="privacypolicy.php">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
       <br>
       <p class="w3-small">
       All content &copy; 2019-2020 John Gordon, All rights reserved.<br>
