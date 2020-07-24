@@ -103,13 +103,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 <div class="w3-container">
                   <p>
                     <ul>
-                      <li>I teach CSIS-1340 Introduction to Programming with Python at Salt Lake Community College.</li>
+                      <li>I teach <a style="color:#0000ff;" href="csis1340course.php">CSIS-1340 <i>Introduction to Computer Programming</i></a> at Salt Lake Community College. Click <a style="color:#0000ff;" href="csis1340course.php">here</a> for details about my approach to teaching this class.</li>
+                      <!--
                       <li>I am also in the process of developing a cross-discipline Python course to teach non-technical and technical students applications of Python programming that fall outside of traditional Computer Science focus.</li>
+                    -->
                     </ul>
                   </p>
                   <br>
                 </div>
-              </div>
+              </di/v>
             </div>
           </div>
         </div>

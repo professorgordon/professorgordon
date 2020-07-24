@@ -93,7 +93,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
               <div class="w3-center">
                 <div class="w3-container">
                   <div class="w3-card-4" style="width:100%">
-                    <a href="sql.php"><img src="images\TopicSQL200x140_wLabels.png" alt="SQL" style="width:100%"></a>
+                    <a href="databases.php"><img src="images\TopicSQL200x140_wLabels.png" alt="Databases" style="width:100%"></a>
                   </div>
                 </div>
               </div>
@@ -130,6 +130,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
+    <!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
@@ -182,7 +183,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
-
+-->
 
     <div class="w3-row">
       <div class="w3-content">
@@ -206,17 +207,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           <div class="w3-row">
             <div class="w3-content">
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div class="w3-card-4 w3-margin w3-white w3-hover-light-grey">
                 <div class="w3-container">
-                  <a href="sotl202021.php"><h4>Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship</h4></a>
-                  <p>Project Title: <i>Connecting Course Objectives to Industry Job Requirements via Backward Design Principles</i>.</p>
+                  <a href="sotl202021.php"><h4>Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship Research Project</h4></a>
                 </div>
               </div>
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div class="w3-card-4 w3-margin w3-white w3-hover-light-blue">
                 <div class="w3-container">
-                  <h4>Project 2</h4>
-                  <p>Text text text text text text text text text text text text text text text.</p>
+                  <h4>Open Education Resource (OER) Database Book Writing Project</h4>
                 </div>
               </div>
 

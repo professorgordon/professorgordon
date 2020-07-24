@@ -83,21 +83,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
-          <div class="w3-row">
-            <div class="w3-content">
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Articles</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li><i>Forthcoming</i></li>
-                    </ul>
-                  </p>
-                  <br>
-                </div>
-              </div>
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h4>Teaching</h4>
+            </div>
+            <div class="w3-container">
+              <p>
+                I teach the following Linux courses at Salt Lake Community College (click the links for my course outlines):
+                <ul>
+                  <li><a style="color:#0000ff;" href="csis1032course.php">CSIS-1032 <i>Introduction to Linux</i></a></li>
+                  <li><a style="color:#0000ff;" href="csis1132course.php">CSIS-1132 <i>Linux System Administration I</i></a></li>
+                  <li><a style="color:#0000ff;" href="csis2132course.php">CSIS-2132 <i>Linux System Administration II</i></a></li>
+                </ul>
+              </p>
+              <br>
             </div>
           </div>
         </div>

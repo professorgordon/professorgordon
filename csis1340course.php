@@ -30,7 +30,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="index.php" style="color:#0000ff;">Home</a> > SOTL 2020-21
+          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="java.php" style="color:#0000ff;">Python</a> > CSIS-1340 Introduction to Computer Programming
         </div>
       </div>
     </div>
@@ -45,10 +45,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-half w3-container w3-theme-l1">
-          <h4>SOTL 2020-21 Fellowship</h4>
+        <div class="w3-twothird w3-container w3-theme-l1">
+          <h4>CSIS-1340 <i>Introduction to Computer Programming</i></h4>
         </div>
-        <div align="right" class="w3-half w3-container w3-theme-l1">
+        <div align="right" class="w3-third w3-container w3-theme-l1">
           <a href="subscribe.php" title="Subscribe to non-spam news & updates."><h4>Subscribe</h4></a>
         </div>
       </div>
@@ -73,8 +73,85 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                  Project Title: <i>Connecting Course Objectives to Industry Job Requirements via Backward Design Principles</i>.
+                    I teach CSIS-1340 at <a href="http://www.slcc.edu/" style="color:#0000ff;" target="_blank">Salt Lake Community College (SLCC)<a> which is a course in the Computer Science & Informations Systems Department that provides students with a ..............................
                   </p>
+                </div>
+                <div class="w3-container">
+                  <h4>My CSIS-1340 Course Outline</h4>
+                </div>
+                <div class="w3-container">
+
+                  <table class="w3-table-all w3-card-4">
+                    <tr class="w3-light-blue">
+                      <th>Topic</th>
+                      <th>Description</th>
+                    </tr>
+                    <tr>
+                      <td width="33%"><b>Course Orientation</b></td>
+                      <td>Overview of the course, introductions, syllabus, books & resources, student computer setup and initial introduction of databases in industry.</td>
+                    </tr>
+                    <tr>
+                      <td><b>IT industry</b></td>
+                      <td>Overview of common structures of IT departments in industry and how databases and SQL development fits into those structures. Also a hands-on exploration of jobs related to SQL programming.</td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><b></b></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </div>
+
+                <br>
+                <br>
+
                 </div>
                 <br>
                 <br>

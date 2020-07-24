@@ -1,25 +1,16 @@
 <?php
-    $servername = '127.0.0.1:3308';
-    $username = 'root';
-    $password = '';
-    $database = 'professorgordon';
-    $connection = new mysqli($servername, $username, $password, $database);
-    if ($connection->connect_error)
+	require 'system/db.php';
+  $categories = '';
+  $query = "SELECT category, category_id FROM categories ORDER BY category";
+  if ($result = $connection->query($query))
+  {
+    while ($row = $result->fetch_assoc())
     {
-      echo "Connection Error: Unable to connect to MySQL." . PHP_EOL;
-      die("Connection Error: " . $connection->connect_error);
+        $categories = $categories . '<a style="color:#0000ff;" href="blog.php?c=' . $row["category_id"] . '">' . $row["category"] . '</a><br>';
     }
-    $categories = '';
-    $query = "SELECT category, category_id FROM categories ORDER BY category";
-    if ($result = $connection->query($query))
-    {
-      while ($row = $result->fetch_assoc())
-      {
-          $categories = $categories . '<a style="color:#0000ff;" href="blog.php?c=' . $row["category_id"] . '">' . $row["category"] . '</a><br>';
-      }
-    }
-    $result->free();
-    $connection->close();
+  }
+  $result->free();
+  $connection->close();
 ?>
 
 <!DOCTYPE html>
