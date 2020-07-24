@@ -208,7 +208,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
               <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
-                  <h4>Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship</h4>
+                  <a href="sotl202021.php"><h4>Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship</h4></a>
                   <p>Project Title: <i>Connecting Course Objectives to Industry Job Requirements via Backward Design Principles</i>.</p>
                 </div>
               </div>
