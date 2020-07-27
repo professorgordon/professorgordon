@@ -94,24 +94,18 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
-          <div class="w3-row">
-            <div class="w3-content">
-              <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
-                  <h4>Teaching</h4>
-                </div>
-                <div class="w3-container">
-                  <p>
-                    <ul>
-                      <li>I teach <a style="color:#0000ff;" href="csis1340course.php">CSIS-1340 <i>Introduction to Computer Programming</i></a> at Salt Lake Community College. Click <a style="color:#0000ff;" href="csis1340course.php">here</a> for details about my approach to teaching this class.</li>
-                      <!--
-                      <li>I am also in the process of developing a cross-discipline Python course to teach non-technical and technical students applications of Python programming that fall outside of traditional Computer Science focus.</li>
-                    -->
-                    </ul>
-                  </p>
-                  <br>
-                </div>
-              </di/v>
+          <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+              <h4>Teaching</h4>
+            </div>
+            <div class="w3-container">
+              <p>
+                I teach the following Python courses at Salt Lake Community College (<i>click the links for my course outlines</i>):
+                <ul>
+                  <li><a style="color:#0000ff;" href="csis1340course.php">CSIS-1340 <i>Introduction to Programming - Python</i></a></li>
+                </ul>
+              </p>
+              <br>
             </div>
           </div>
         </div>

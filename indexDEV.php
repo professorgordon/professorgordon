@@ -68,10 +68,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-half w3-container w3-theme-l1">
+        <div class="w3-twothird w3-container w3-theme-l1">
           <h4>Pedagogical & Research Interests</h4>
         </div>
-        <div align="right" class="w3-half w3-container w3-theme-l1">
+        <div align="right" class="w3-third w3-container w3-theme-l1">
           <a href="subscribe.php" title="Subscribe to non-spam news & updates."><h4>Subscribe</h4></a>
         </div>
       </div>
@@ -130,7 +130,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 
-    <!--
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l3 w3-container">
@@ -183,7 +182,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
       </div>
     </div>
--->
+
 
     <div class="w3-row">
       <div class="w3-content">
@@ -195,37 +194,53 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
     <div class="w3-row">
       <div class="w3-content">
-        <div class="w3-container w3-theme-l1">
-          <h5>Projects</h5>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-row">
-      <div class="w3-content">
         <div class="w3-container w3-theme-l3">
+
+
           <div class="w3-row">
             <div class="w3-content">
-
-              <div class="w3-card-4 w3-margin w3-white w3-hover-light-grey">
-                <div class="w3-container">
-                  <a href="sotl202021.php"><h4>Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship Research Project</h4></a>
+              <div class="w3-half w3-container w3-theme-l3">
+                <div class="w3-card-4 w3-margin w3-white w3-hover-light-grey">
+                  <div class="w3-container">
+                    <h5>SLCC Fall 2020 Teaching Schedule</h5>
+                    <ul>
+                      <li><a href="csis1132course.php" style="color:#0000ff;">CSIS-1132 Linux System Admin I</a></li>
+                      <li><a href="csis1410course.php" style="color:#0000ff;">CSIS-1410 Object-Oriented Programming</a></li>
+                      <li><a href="csis1550course.php" style="color:#0000ff;">CSIS-1550 SQL Programming</a></li>
+                      <li><a href="csis2000course.php" style="color:#0000ff;">CSIS-2000 Co-Op Education</a></li>
+                      <li><a href="csis2132course.php" style="color:#0000ff;">CSIS-2132 Linux System Admin II</a></li>
+                      <li><a href="csis2420course.php" style="color:#0000ff;">CSIS-2420 Algorithms & Data Structures</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-
-              <div class="w3-card-4 w3-margin w3-white w3-hover-light-blue">
-                <div class="w3-container">
-                  <h4>Open Education Resource (OER) Database Book Writing Project</h4>
+              <div class="w3-half w3-container w3-theme-l3">
+                <div class="w3-card-4 w3-margin w3-white w3-hover-light-grey">
+                  <div class="w3-container">
+                    <h5>Projects</h5>
+                    <ul>
+                      <li><a href="sotl202021.php" style="color:#0000ff;">Scholarship of Teaching and Learning (SOTL) 2020-21 Fellowship Research Project</a></li>
+                      <li><a href="" style="color:#0000ff;">Open Education Resource (OER) Database Book Writing Project</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-
               <br>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 </div>
+
+    <div class="w3-row">
+      <div class="w3-content">
+        <div class="w3-container w3-theme-l3">
+          <br><br>
+        </div>
+      </div>
+    </div>
 
     <div class="w3-row">
       <div class="w3-content">

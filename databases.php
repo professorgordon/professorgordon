@@ -70,11 +70,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
               <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
-                  <h4>Databases</h4>
+                  <h4>My Background</h4>
                 </div>
 
                 <div class="w3-row">
-                  <div class="w3-container w3-threequarter w3-white">
+                  <div class="w3-container w3-twothird w3-white">
                     <p>
                       I have worked in data since the late 1980's. What does that mean, <i>work in data</i>? Data is the foundation of nearly every business application, in-house, web-based, mobile, cloud, etc. and the pathways into jobs in data are widespread.
                     </p>
@@ -82,9 +82,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                       I have worked roles such as Database Developer, Database Administrator, Data Architect and Data Engineer, all heavily in the design, management and development of data solutions and analytics. SQL is the life blood of relational databases and the core language used to interact with them regardless of the database vendor (Microsoft, Oracle, mySql, etc.) or programming language you may be using (C, C++, C#, Java, Python, etc.).
                     </p>
                   </div>
-                  <div class="w3-container w3-quarter w3-white w3-center">
+                  <div class="w3-container w3-third w3-white w3-center">
                     <br>
-                    <img src="images\DatabaseVendors.jpg" height="100%" width="100%" alt="Database" title="Database">
+                    <img src="images\DatabaseVendors.png" height="100%" width="100%" alt="Database" title="Database">
                     <!--  <img src="images\logoAzureSql.png" height="70%" width="70%" alt="Database" title="Database">  -->
                   </div>
                 </div>

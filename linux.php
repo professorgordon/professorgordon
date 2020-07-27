@@ -69,8 +69,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             <div class="w3-content">
               <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
+                  <h4>My Background</h4>
+                </div>
+                <div class="w3-container">
                   <p>
-                    Very early in my IT career (mid 1980’s), while still in the military, I was assigned as a System Administrator to manage a <a href="https://en.wikipedia.org/wiki/VAX" target="_blank" style="color:#0000ff;">VAX</a> and <a href="https://en.wikipedia.org/wiki/Unix" target="_blank" style="color:#0000ff;">Unix</a> based system at Hill Air Force Base. During those early years I became highly proficient with the Unix operating system and have subsequently worked with numerous variants of Unix and Linux over the years since. I have also done a great deal of work in the Microsoft tools universe, but have returned to Linux over and over along the way for many networking, web and programming projects. Now I enjoy teaching introductory Linux and Linux System Administration concepts.
+                    Very early in my IT career (mid 1980’s), while still in the military, I was assigned as a System Administrator to manage a <a href="https://en.wikipedia.org/wiki/VAX" target="_blank" style="color:#0000ff;">VAX</a> and <a href="https://en.wikipedia.org/wiki/Unix" target="_blank" style="color:#0000ff;">Unix</a> based system at Hill Air Force Base. During those years I became very proficient with the Unix operating system and systems programming. I have subsequently worked with numerous variants of Unix and Linux over the years since, for many networking, web and programming projects. Now I enjoy teaching Introductory Linux and Linux System Administration classes at SLCC.
                   </p>
                 </div>
               </div>

@@ -30,7 +30,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-theme-l4 w3-container w3-small">
-          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="python.php" style="color:#0000ff;">Python</a> > CSIS-1340 Introduction to Computer Programming
+          <a href="index.php" style="color:#0000ff;">Home</a> > <a href="linux.php" style="color:#0000ff;">Linux</a> > CSIS-1132 Linux System Administration I
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-row">
       <div class="w3-content">
         <div class="w3-twothird w3-container w3-theme-l1">
-          <h4>CSIS-1340 <i>Introduction to Computer Programming - Python</i></h4>
+          <h4>CSIS-1132 <i>Linux System Administration I</i></h4>
         </div>
         <div align="right" class="w3-third w3-container w3-theme-l1">
           <a href="subscribe.php" title="Subscribe to non-spam news & updates."><h4>Subscribe</h4></a>
@@ -73,11 +73,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
                 <div class="w3-container">
                   <p>
-                    I teach CSIS-1340 at <a href="http://www.slcc.edu/" style="color:#0000ff;" target="_blank">Salt Lake Community College (SLCC)<a> which is a course in the Computer Science & Informations Systems Department that provides students with a hands-on introduction to computer programming, using the Python programming language.
+                    I teach CSIS-1132 at <a href="http://www.slcc.edu/" style="color:#0000ff;" target="_blank">Salt Lake Community College (SLCC)<a> which is a course in the Computer Science & Informations Systems Department that provides students with a ..............................
                   </p>
                 </div>
                 <div class="w3-container">
-                  <h4>My CSIS-1340 Course Outline</h4>
+                  <h4>My CSIS-1132 Course Outline</h4>
                 </div>
                 <div class="w3-container">
 
@@ -88,82 +88,62 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                     </tr>
                     <tr>
                       <td width="33%"><b>Course Orientation</b></td>
-                      <td>Overview of the course, introductions, syllabus, books & resources, student computer setup and initial introduction of computer programming.</td>
-                    </tr>
-                    <tr>
-                      <td><b>History of Computer Programming</b></td>
-                      <td>In this section we discuss the progression of computer programming, as both a field of scientific study and how it has evolved in various industries, over time. Students complete an exploratory assignment and share their results with their classmates so that collectively students get a broad overview of the history of the field.</td>
-                    </tr>
-                    <tr>
-                      <td><b>Programming Languages</b></td>
-                      <td>As an introduction to programming course, we begin our discussion of programming by taking a survey of programming languages overall, compare language families and use an interactive visualization tool to learn about the evolution of programming languages. Students choose a programming language (other than Python) and conduct a small research project of their chosen language. They then share their results with their classmates so that collectively students are introduced to a broad number of programming languages.</td>
+                      <td>Overview of the course, introductions, syllabus, books & resources, student computer setup and initial introduction of databases in industry.</td>
                     </tr>
                     <tr>
                       <td><b>IT industry</b></td>
                       <td>Overview of common structures of IT departments in industry and how databases and SQL development fits into those structures. Also a hands-on exploration of jobs related to SQL programming.</td>
                     </tr>
                     <tr>
-                      <td><b>Programming as a Career</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Professional Skills</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Problem Solving with the Software<br>&nbsp;&nbsp;&nbsp;&nbsp;Development Life Cycle (SDLC)</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Diagramming: Flowcharts</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Introduction to Python</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Integrated Development Environments (IDEs)</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Variables & Data Types</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Printing in Python</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Lists</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Decisions w / If Statements</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Dictionaries</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>User Input & While Loops</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                     <tr>
-                      <td><b>Functions</b></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td><b>Working with Files</b></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td><b>Exception Handling</b></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td><b>Alien Invasion Game</b></td>
+                      <td><b></b></td>
                       <td></td>
                     </tr>
                   </table>
@@ -192,7 +172,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
                 <div class="w3-col" style="width:90%">
                   <p>
-                    <i>© 2019 <a href="Contact.php" style="color:#0000ff;">John Gordon</a>. This content contains supplemental material that I use in some of the college classes that I teach. Feel free to <a href="Contact.php" style="color:#0000ff;">contact me</a> with any questions or comments concerning this content.</i>
+                    <i>© 2019 <a href="Contact.php" style="color:#0000ff;">John Gordon</a>. This article contains supplemental material that I use in some of the college classes that I teach. Feel free to <a href="Contact.php" style="color:#0000ff;">contact me</a> with any questions or comments concerning this article.</i>
                   </p>
                 </div>
 
