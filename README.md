@@ -7,7 +7,7 @@
       School
     </td>
     <td valign="top" width="33%">
-      Contact Information
+      Contact
     </td>
   </tr>
   <tr>
@@ -19,7 +19,7 @@
     </td>
     <td valign="top" width="34%">
       <ul>
-        <li>I am scholar working on a Ph.D. in Writing and Rhetoric Studies at the University of Utah, where I conduct research and teach writing. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy,
+        <li>I am a scholar working on a Ph.D. in Writing and Rhetoric Studies at the University of Utah, where I conduct research and teach writing. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy,
       </ul>
     </td>
     <td valign="top" width="33%">
