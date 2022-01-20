@@ -1,8 +1,6 @@
-- 🔭 I’m currently working at ... University of Utah & Salt Lake Community College
-- 🌱 I’m currently teaching ... C/C++ Programming, Java OOP Programming, Decision Support Systems, and Intermediate Writing.
-- 🌱 I’m currently working on a Ph.D. in Writing and Rhetoric Studies. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy. 
-- 💬 Ask me about ... Anything you see on this page.
-- 📫 How to reach me: ... [My Website](https://johngordon.io)
-- 📫 Or ... [LinkedIn](https://www.linkedin.com/in/johncalvingordon/)
-- 📫 Or ... [Twitter](https://twitter.com/ProfJGordon)
-- ⚡ Fun fact: ... I just turned 60.
+- 🔭 I am a tenure-track Professor of Computer Science & Information Systems and an Adjunct Professor of English at Salt Lake Community College.
+- 🌱 I am currently teaching C/C++ Programming, Java OOP Programming, Decision Support Systems, and Intermediate Writing.
+- 🌱 I am also a Ph.D. Scholar Professor, working on a Ph.D. in Writing and Rhetoric Studies. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy, at the University of Utah where I also teach writing. 
+- 📫 How to reach me: [My Website](https://johngordon.io)
+- 📫 Or [LinkedIn](https://www.linkedin.com/in/johncalvingordon/)
+- 📫 Or [Twitter](https://twitter.com/ProfJGordon)
