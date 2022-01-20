@@ -20,9 +20,8 @@
     </td>
     <td valign="top" width="33%">
       <a href="https://johngordon.io" target="_blank">johngordon.io</a><br>
-📫 [My Website](https://johngordon.io)<br>
-📫 [LinkedIn](https://www.linkedin.com/in/johncalvingordon/)<br>
-📫 [Twitter](https://twitter.com/ProfJGordon)<br>
+      <a href="https://www.linkedin.com/in/johncalvingordon">LinkedIn</a><br>
+      <a href="https://twitter.com/ProfJGordon">Twitter</a><br>
     </td>
   </tr>
 </table>
