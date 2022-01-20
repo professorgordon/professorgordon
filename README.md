@@ -1,10 +1,10 @@
 <table>
   <tr>
     <td valign="top" width="33%">
-      My Work
+      Work
     </td>
     <td valign="top" width="34%">
-      My School
+      School
     </td>
     <td valign="top" width="33%">
       Contact Information
@@ -18,12 +18,16 @@
       </ul>
     </td>
     <td valign="top" width="34%">
-      - 🌱 I am also a Ph.D. Scholar Professor, working on a Ph.D. in Writing and Rhetoric Studies. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy, at the University of Utah where I also teach writing. 
+      <ul>
+        <li>I am scholar working on a Ph.D. in Writing and Rhetoric Studies at the University of Utah, where I conduct research and teach writing. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy,
+      </ul>
     </td>
     <td valign="top" width="33%">
-      <a href="https://johngordon.io" target="_blank">johngordon.io</a><br>
-      <a href="https://www.linkedin.com/in/johncalvingordon">LinkedIn</a><br>
-      <a href="https://twitter.com/ProfJGordon">Twitter</a><br>
+      <ul>
+        <li><a href="https://johngordon.io" target="_blank">johngordon.io</a><br>
+        <li><a href="https://www.linkedin.com/in/johncalvingordon">LinkedIn</a><br>
+        <li><a href="https://twitter.com/ProfJGordon">Twitter</a><br>
+      </ul>
     </td>
   </tr>
 </table>
