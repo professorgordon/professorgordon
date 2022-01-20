@@ -19,6 +19,7 @@
       - 🌱 I am also a Ph.D. Scholar Professor, working on a Ph.D. in Writing and Rhetoric Studies. My research interests include Computational Rhetoric and Linguistics, Natural Language Processing (NLP) and Coding Literacy, at the University of Utah where I also teach writing. 
     </td>
     <td valign="top" width="33%">
+      <a href="https://johngordon.io" target="_blank">johngordon.io</a><br>
 📫 [My Website](https://johngordon.io)<br>
 📫 [LinkedIn](https://www.linkedin.com/in/johncalvingordon/)<br>
 📫 [Twitter](https://twitter.com/ProfJGordon)<br>
