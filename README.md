@@ -13,7 +13,7 @@
   <tr>
     <td valign="top" width="33%">
       <ul>
-        <li>I am the Program Manager of the SCI-HUM Research Initiative, a PhD Scholar and Adjunct Faculty at the University of Utah.
+        <li>I am the <a href="http://sci-hum.org" target="_blank">Program Manager of the SCI-HUM Research Initiative</a>, a PhD Scholar and Adjunct Faculty at the University of Utah.
       </ul>
     </td>
     <td valign="top" width="34%">
