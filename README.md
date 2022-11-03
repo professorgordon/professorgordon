@@ -1,10 +1,7 @@
 <table>
   <tr>
-    <td valign="top" width="33%">
+    <td valign="top" width="66%">
       Work
-    </td>
-    <td valign="top" width="34%">
-      School
     </td>
     <td valign="top" width="33%">
       Contact
