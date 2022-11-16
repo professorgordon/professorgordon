@@ -11,6 +11,10 @@
         <li>I am also a Ph.D. Scholar with the <a href="https://writing.utah.edu" target="_blank">Department of Writing & Rhetoric Studies</a>. My research interests include Code Studies, Natural Language Processing (NLP), Data Analytics & Data Visualization.
         <li>I am also an Adjunct Faculty member in the <a href="https://writing.utah.edu" target="_blank">Department of Writing & Rhetoric Studies</a> and at the <a href="https://eccles.utah.edu/" target="_blank">David Eccles School of Business, Information Sysstems Department</a>.
       </ul>
+      
+      [go](http://stackoverflow.com){:target="_blank"}
+      
+      
     </td>
   </tr>
 </table>
