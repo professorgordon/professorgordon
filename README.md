@@ -12,9 +12,9 @@
         <li>I am also an Adjunct Faculty member in the <a href="https://writing.utah.edu" target="_blank">Department of Writing & Rhetoric Studies</a> and at the <a href="https://eccles.utah.edu/" target="_blank">David Eccles School of Business, Information Sysstems Department</a>.
       </ul>
       
-      [go](http://stackoverflow.com){:target="_blank"}
       
       
     </td>
   </tr>
 </table>
+[go](http://stackoverflow.com){:target="_blank"}
