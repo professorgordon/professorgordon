@@ -2,8 +2,8 @@
   <tr>
     <td valign="top" width="99%">
       <ul>
-        <li>I am an Assistant Professor at the <a href="" target="_blank">David Eccles School of Business</a> and an Associate Instructor in the <a href="https://humanities.utah.edu/" target="_blank">College of Humanities</a> at the <a href="https://www.utah.edu/" target="_blank">University of Utah</a>.
-        <li>I am a Doctoral Candidate with the <a href="https://writing.utah.edu" target="_blank">Department of Writing & Rhetoric Studies</a>. My research interests include the following:
+        <li>I am an Assistant Professor at the <a href="https://eccles.utah.edu/" target="_blank">David Eccles School of Business</a>, and an Associate Instructor in the <a href="https://humanities.utah.edu/" target="_blank">College of Humanities</a>, at the <a href="https://www.utah.edu/" target="_blank">University of Utah</a>.
+        <li>I am also a Doctoral Candidate with the <a href="https://writing.utah.edu" target="_blank">Department of Writing & Rhetoric Studies</a>. My research interests include the following:
           <ul>
             <li>Code Studies</li>
             <li>Natural Lanaguage Processing (NLP)</li>
